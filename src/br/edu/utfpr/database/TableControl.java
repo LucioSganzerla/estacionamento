@@ -7,10 +7,8 @@ import java.util.List;
 public class TableControl {
 
     public static final List<Repository<?, ?>> NEW_TABLES_V1 = List.of(
-            new AlunoRepository(),
-            new DisciplinaRepository(),
-            new AvaliacaoRepository(),
-            new AlunoDisciplinaRepository()
+            new CarroRepository(),
+            new VagaRepository()
 
     );
 

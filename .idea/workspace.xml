@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac956bfe-4a48-4eb7-88ac-9986eb56660d" name="Changes" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ac956bfe-4a48-4eb7-88ac-9986eb56660d" name="Changes" comment="End">
+      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/TipoVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/repository/VagaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/statement/VagaStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oo24s.iml" beforeDir="false" afterPath="$PROJECT_DIR$/estacionamento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/database/ConnectDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/database/ConnectDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/database/TableControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/database/TableControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/AlunoDisciplina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/Avaliacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/Vaga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/repository/AlunoDisciplinaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/repository/AlunoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/repository/CarroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/repository/AvaliacaoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/repository/DisciplinaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/repository/RepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/repository/RepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/service/MathRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/service/MathService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/statement/AlunoDisciplinaStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/statement/AlunoStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/statement/CarroStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/statement/AvaliacaoStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/utfpr/statement/DisciplinaStatement.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,15 +74,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32873562" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.utfpr.statement" />
+      <recent name="br.edu.utfpr.repository" />
+      <recent name="br.edu.utfpr.model" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.edu.utfpr.Main" />
-      <module name="oo24s" />
+      <module name="estacionamento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.edu.utfpr.*" />
@@ -64,6 +120,20 @@
       <updated>1648003507911</updated>
       <workItem from="1648003509265" duration="554000" />
       <workItem from="1648004081322" duration="116000" />
+      <workItem from="1648248685147" duration="3356000" />
+      <workItem from="1648256103004" duration="20000" />
+      <workItem from="1648599628942" duration="1544000" />
+      <workItem from="1648677909060" duration="39000" />
+      <workItem from="1648848805864" duration="6388000" />
+      <workItem from="1649326384909" duration="1843000" />
+      <workItem from="1649372961872" duration="1000" />
+      <workItem from="1649460690569" duration="14000" />
+      <workItem from="1650414465913" duration="27000" />
+      <workItem from="1650416054581" duration="1090000" />
+      <workItem from="1650580983388" duration="8300000" />
+      <workItem from="1651018872278" duration="199000" />
+      <workItem from="1651019096771" duration="217000" />
+      <workItem from="1651019342839" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="Fix Aula 22/03">
       <created>1648003927240</created>
@@ -79,7 +149,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648004006880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1648851087480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648851087480</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aula 01/04">
+      <created>1648856012811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648856012811</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajustes">
+      <created>1648856173072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648856173072</updated>
+    </task>
+    <task id="LOCAL-00006" summary="End">
+      <created>1650581041793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650581041793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +198,20 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fix Aula 22/03" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Aula 01/04" />
+    <MESSAGE value="Ajustes" />
+    <MESSAGE value="End" />
+    <option name="LAST_COMMIT_MESSAGE" value="End" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

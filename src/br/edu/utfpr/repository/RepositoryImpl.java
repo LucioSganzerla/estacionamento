@@ -44,11 +44,15 @@ public abstract class RepositoryImpl<T extends Statement, R extends Model> imple
         try {
             PreparedStatement psSalvar = getInstanceOfT().salvar(conn, r);
             int linhasAfetadas = psSalvar.executeUpdate();
+            if (linhasAfetadas > 0) {
+                psSalvar.getGeneratedKeys().next();
+                r.setId(psSalvar.getGeneratedKeys().getLong(1));
+            }
             psSalvar.close();
             conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
-            System.out.println("ERRO AO CADASTRAR ALUNO");
+            System.out.println("ERRO AO CADASTRAR CARRO");
         }
     }
 

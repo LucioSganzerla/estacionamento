@@ -19,7 +19,7 @@ public class ConnectDataBase {
 
         try {
             conexao = DriverManager.getConnection(DATABASE_URL, properties);
-            conexao.setSchema("oo24s");
+            conexao.setSchema("estacionamento");
         } catch (SQLException ex) {
             System.out.println("ERRO AO CRIAR CONEXÃO");
             System.out.println(ex.getMessage());
